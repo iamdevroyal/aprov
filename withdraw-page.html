@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./withdraw-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="withdraw-page">
+      <div class="withdraw-page-child"></div>
+      <section class="left-side-icons-parent2">
+        <div class="left-side-icons9" id="leftSideIcons">
+          <div class="icon-avatar7"></div>
+          <div class="icon-back7">
+            <div class="base-icon7"></div>
+            <img
+              class="arrows-chevron-left8"
+              loading="lazy"
+              alt=""
+              src="./public/24--arrows--chevronleft.svg"
+            />
+          </div>
+        </div>
+        <div class="withdraw-content">
+          <div class="withdraw-header">
+            <a class="withdraw-funds">Withdraw Funds</a>
+            <div class="balance-info1">
+              <b class="wallet-balance1">Wallet Balance</b>
+              <div class="balance-value1">
+                <div class="div50">₦ 5,760.19</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="withdraw-form">
+        <div class="amount-input-container1">
+          <div class="amount-input-wrapper">
+            <div class="amount-input-inner-wrapper">
+              <div class="amount-input-label-container">
+                <div class="amount-input-label-container-child"></div>
+                <input
+                  class="enter-amount2"
+                  placeholder="Enter amount"
+                  type="text"
+                />
+              </div>
+              <div class="text3">Select bank</div>
+              <div class="bank-account-container">
+                <div class="bank-account-details">
+                  <div class="bank-gt-bank">Bank: GT Bank</div>
+                  <div class="acc-no-0453516924">ACC NO: 0453516924</div>
+                </div>
+                <div class="bank-label-container">
+                  <div class="label1">
+                    <div class="label-item"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="button-yellow3" id="buttonYellow">
+            <div class="base3"></div>
+            <div class="text4">Withdraw</div>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var leftSideIcons = document.getElementById("leftSideIcons");
+      if (leftSideIcons) {
+        leftSideIcons.addEventListener("click", function (e) {
+          window.location.href = "./wallets-page.html";
+        });
+      }
+
+      var buttonYellow = document.getElementById("buttonYellow");
+      if (buttonYellow) {
+        buttonYellow.addEventListener("click", function (e) {
+          window.location.href = "./processing-transfer.html";
+        });
+      }
+    </script>
+  </body>
+</html>

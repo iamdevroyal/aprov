@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./transfer-to-bank.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="transfer-to-bank1">
+      <div class="transfer-to-bank-child"></div>
+      <div class="header3">
+        <div class="left-side-icons11" id="leftSideIcons">
+          <div class="icon-avatar9"></div>
+          <div class="icon-back9">
+            <div class="base-icon9"></div>
+            <img
+              class="arrows-chevron-left10"
+              loading="lazy"
+              alt=""
+              src="./public/24--arrows--chevronleft.svg"
+            />
+          </div>
+        </div>
+        <div class="transfer-title">
+          <a class="transfer-to-bank2">Transfer to Bank</a>
+        </div>
+      </div>
+      <section class="content5">
+        <form class="bank-selection-parent">
+          <div class="bank-selection1">
+            <div class="frame-parent34">
+              <div class="rectangle-parent37">
+                <div class="frame-child91"></div>
+                <input
+                  class="enter-amount3"
+                  placeholder="Enter amount"
+                  type="text"
+                />
+              </div>
+              <div class="select-bank-title-parent">
+                <div class="select-bank-title">
+                  <div class="select-bank-title-child"></div>
+                  <div class="select-bank1">Select Bank</div>
+                </div>
+                <img
+                  class="left-side-icons12"
+                  alt=""
+                  src="./public/left-side-icons1@2x.png"
+                />
+              </div>
+            </div>
+            <div class="account-number-title">
+              <div class="select-bank-title-child"></div>
+              <input
+                class="account-number1"
+                placeholder="Account Number"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="yellow-button">
+            <button class="button-yellow4" id="buttonYellow">
+              <div class="base4"></div>
+              <b class="text5">Transfer</b>
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script>
+      var leftSideIcons = document.getElementById("leftSideIcons");
+      if (leftSideIcons) {
+        leftSideIcons.addEventListener("click", function (e) {
+          window.location.href = "./wallets-page.html";
+        });
+      }
+
+      var buttonYellow = document.getElementById("buttonYellow");
+      if (buttonYellow) {
+        buttonYellow.addEventListener("click", function (e) {
+          window.location.href = "./processing-transfer.html";
+        });
+      }
+    </script>
+  </body>
+</html>

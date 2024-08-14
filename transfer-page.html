@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./transfer-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="transfer-page">
+      <div class="transfer-page-child"></div>
+      <div class="left-side-icons-parent">
+        <div class="left-side-icons" id="leftSideIcons">
+          <div class="icon-avatar"></div>
+          <div class="icon-back">
+            <div class="base-icon"></div>
+            <img
+              class="arrows-chevron-left"
+              loading="lazy"
+              alt=""
+              src="./public/24--arrows--chevronleft.svg"
+            />
+          </div>
+        </div>
+        <div class="frame-wrapper">
+          <div class="transfer-parent">
+            <a class="transfer">Transfer</a>
+            <div class="frame-container">
+              <div class="victory-container-parent">
+                <div class="victory-container">
+                  <div class="frame-parent">
+                    <img
+                      class="frame-child"
+                      loading="lazy"
+                      alt=""
+                      src="./public/group-1926@2x.png"
+                    />
+
+                    <div class="rectangle-parent">
+                      <div class="frame-item"></div>
+                      <div class="div">•• 6917</div>
+                    </div>
+                  </div>
+                </div>
+                <a class="victory">Victory</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="amount-input-container-wrapper">
+        <div class="amount-input-container">
+          <div class="amount-input-container-inner">
+            <div class="rectangle-group">
+              <div class="frame-inner"></div>
+              <input
+                class="enter-amount"
+                placeholder="Enter amount"
+                type="text"
+              />
+            </div>
+          </div>
+          <button class="button-yellow" id="buttonYellow">
+            <div class="base"></div>
+            <div class="text">Send</div>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var leftSideIcons = document.getElementById("leftSideIcons");
+      if (leftSideIcons) {
+        leftSideIcons.addEventListener("click", function (e) {
+          window.location.href = "./send-to-aprov-contact.html";
+        });
+      }
+
+      var buttonYellow = document.getElementById("buttonYellow");
+      if (buttonYellow) {
+        buttonYellow.addEventListener("click", function (e) {
+          window.location.href = "./processing-transfer.html";
+        });
+      }
+    </script>
+  </body>
+</html>

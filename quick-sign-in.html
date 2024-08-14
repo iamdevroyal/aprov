@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./quick-sign-in.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="quick-sign-in">
+      <div class="quick-sign-in-child"></div>
+      <div class="header2">
+        <div class="logo-container">
+          <img
+            class="logo-icon"
+            loading="lazy"
+            alt=""
+            src="./public/ellipse1@2x.png"
+          />
+        </div>
+        <h3 class="welcome-back-royal-container">
+          <p class="welcome-back">Welcome back,</p>
+          <p class="royal1">
+            <b>Royal</b>
+          </p>
+        </h3>
+      </div>
+      <section class="content2">
+        <div class="sign-in-form">
+          <div class="pin-instructions">
+            <div class="enter-your-aprov">Enter your Aprov Pin to Login</div>
+          </div>
+          <div class="pin-field">
+            <div class="pin-field-child"></div>
+            <div class="pin-input-container">
+              <div class="group-wrapper17">
+                <img class="group-icon67" alt="" src="./public/group4.svg" />
+              </div>
+              <input
+                class="enter-your-pin"
+                placeholder="Enter your Pin"
+                type="text"
+              />
+            </div>
+            <img
+              class="vuesaxlineareye-slash-icon"
+              alt=""
+              src="./public/vuesaxlineareyeslash.svg"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="pin-label">
+        <div class="button-container">
+          <div class="button" id="button"></div>
+          <div class="sign-in">Sign In</div>
+        </div>
+        <div class="pin-input">
+          <div class="sign-up-bg-parent" id="groupContainer">
+            <div class="sign-up-bg" id="signUpBg"></div>
+            <div class="sign-up">Sign Up</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+
+      var signUpBg = document.getElementById("signUpBg");
+      if (signUpBg) {
+        signUpBg.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          // Please sync "Sign Up" to the project
+        });
+      }
+    </script>
+  </body>
+</html>

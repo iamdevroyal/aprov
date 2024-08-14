@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./escrow-form-pop-up.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="escrow-form-pop-up" id="popupescrowFormPopUp">
+      <div class="background1"></div>
+      <img
+        class="escrow-form-pop-up-child"
+        alt=""
+        src="./public/vector-115.svg"
+      />
+
+      <img
+        class="escrow-form-pop-up-item"
+        alt=""
+        src="./public/vector-114.svg"
+      />
+
+      <div class="escrow-form-pop-up-inner"></div>
+      <img class="group-icon68" alt="" src="./public/group.svg" />
+
+      <div class="escrow-form-pop-up-child1"></div>
+      <main class="content3">
+        <section class="top-content">
+          <div class="escrow-icon-background"></div>
+          <img class="escrow-icon" alt="" src="./public/navigation-icons.svg" />
+
+          <div class="escrow-status-icon"></div>
+        </section>
+        <div class="create-escrow-title">
+          <h3 class="create-an-escrow">Create an Escrow</h3>
+        </div>
+        <form class="escrow-form">
+          <div class="rectangle-parent34">
+            <div class="party-b-info-child"></div>
+            <input class="title2" placeholder="Title" type="text" />
+          </div>
+          <div class="input-fields1">
+            <div class="party-b-info">
+              <div class="party-b-info-child"></div>
+              <input
+                class="party-b-phone"
+                placeholder="Party B Phone"
+                type="text"
+              />
+            </div>
+            <div class="rectangle-parent34">
+              <div class="party-b-info-child"></div>
+              <input
+                class="party-b-email"
+                placeholder="Party B email address"
+                type="text"
+              />
+            </div>
+            <div class="party-b-info2">
+              <button class="image-left">
+                <div class="image-left-child"></div>
+                <div class="amount">Amount</div>
+              </button>
+              <div class="image-left1">
+                <div class="image-left-item"></div>
+                <div class="amount">Image 1</div>
+              </div>
+              <button class="image-right">
+                <div class="image-right-child"></div>
+                <div class="image-2">Image 2</div>
+              </button>
+            </div>
+          </div>
+        </form>
+        <section class="content-inner">
+          <textarea
+            class="frame-textarea"
+            placeholder="Description"
+            rows="{10}"
+            cols="{16}"
+          >
+          </textarea>
+        </section>
+        <div class="content-child">
+          <div class="button-background-parent">
+            <div class="button-background" id="popupbuttonBackground"></div>
+            <div class="rectangle-parent35">
+              <div class="frame-child88" id="popuprectangle"></div>
+              <div class="start-escrow">Start Escrow</div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="bottom-content">
+        <img class="bottom-icon" alt="" src="./public/vector-115.svg" />
+
+        <img
+          class="group-icon69"
+          loading="lazy"
+          alt=""
+          src="./public/group.svg"
+        />
+      </div>
+      <footer class="navbar">
+        <div class="group3" id="popupgroupContainer">
+          <div class="navbar-items">
+            <div class="navbar-links">
+              <div class="home-icon-wrapper">
+                <img
+                  class="home-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector1.svg"
+                />
+              </div>
+              <div class="group-wrapper18">
+                <img
+                  class="group-icon70"
+                  loading="lazy"
+                  alt=""
+                  src="./public/group-1.svg"
+                  id="popupgroupIcon2"
+                />
+              </div>
+              <div class="escrow-link">
+                <div class="escrow">Escrow</div>
+              </div>
+              <div class="group-wrapper19">
+                <img
+                  class="group-icon71"
+                  loading="lazy"
+                  alt=""
+                  src="./public/group-2.svg"
+                  id="popupgroupIcon3"
+                />
+              </div>
+              <img
+                class="group-icon72"
+                loading="lazy"
+                alt=""
+                src="./public/group1.svg"
+                id="popupgroupIcon4"
+              />
+            </div>
+          </div>
+          <div class="profile-icon">
+            <div class="navigation-links">
+              <a class="home">Home</a>
+              <a class="wallets2">Wallets</a>
+            </div>
+            <div class="navigation-links1">
+              <div class="history">History</div>
+              <a class="wallets2">Profile</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var popupbuttonBackground = document.getElementById("popupbuttonBackground");
+      if (popupbuttonBackground) {
+        popupbuttonBackground.addEventListener("click", function (e) {
+          window.location.href = "./verify-number.html";
+        });
+      }
+
+      var popuprectangle = document.getElementById("popuprectangle");
+      if (popuprectangle) {
+        popuprectangle.addEventListener("click", function (e) {
+          window.location.href = "./bills-services.html";
+        });
+      }
+
+      var popupgroupIcon2 = document.getElementById("popupgroupIcon2");
+      if (popupgroupIcon2) {
+        popupgroupIcon2.addEventListener("click", function (e) {
+          window.location.href = "./wallets-page.html";
+        });
+      }
+
+      var popupgroupIcon3 = document.getElementById("popupgroupIcon3");
+      if (popupgroupIcon3) {
+        popupgroupIcon3.addEventListener("click", function (e) {
+          window.location.href = "./messages.html";
+        });
+      }
+
+      var popupgroupIcon4 = document.getElementById("popupgroupIcon4");
+      if (popupgroupIcon4) {
+        popupgroupIcon4.addEventListener("click", function (e) {
+          window.location.href = "./profile-page.html";
+        });
+      }
+
+      var popupgroupContainer = document.getElementById("popupgroupContainer");
+      if (popupgroupContainer) {
+        popupgroupContainer.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+
+      var popupescrowFormPopUp = document.getElementById("popupescrowFormPopUp");
+      if (popupescrowFormPopUp) {
+        popupescrowFormPopUp.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,313 @@
+.add-contact-page-child {
+  width: 375px;
+  height: 812px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.icon-avatar6 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  display: none;
+}
+.base-icon6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-royalblue-200);
+}
+.arrows-chevron-left7 {
+  position: absolute;
+  height: 62.5%;
+  width: 62.5%;
+  top: 18.75%;
+  right: 18.75%;
+  bottom: 18.75%;
+  left: 18.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.icon-back6 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.left-side-icons7 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) var(--padding-5xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.add-contact {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 1;
+}
+.header1,
+.title1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.header1 {
+  width: 267px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.enter-contact-details {
+  position: relative;
+  line-height: 16px;
+  z-index: 1;
+}
+.info-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-9xl);
+}
+.name-account-child {
+  height: 64px;
+  width: 327px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.contact-name1 {
+  width: 127px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 18px;
+  position: relative;
+  line-height: 16px;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.name-account {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-mid) var(--padding-3xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.account-number {
+  width: 137px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 18px;
+  position: relative;
+  line-height: 16px;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.name-account1 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-mid) var(--padding-lgi);
+  max-width: 100%;
+  z-index: 1;
+}
+.select-bank {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 2;
+}
+.bank-label {
+  position: absolute;
+  top: 1.6px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-mid) var(--padding-3xl);
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.left-side-icons8 {
+  position: absolute;
+  top: 0;
+  left: 271.1px;
+  width: 45.8px;
+  height: 65.2px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 2;
+}
+.bank-selection {
+  align-self: stretch;
+  height: 65.6px;
+  position: relative;
+  max-width: 100%;
+}
+.contact-info,
+.input-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-fields {
+  gap: 26.2px;
+  color: var(--color-gray-100);
+}
+.contact-info {
+  gap: 32.6px;
+}
+.base2,
+.text2 {
+  position: relative;
+}
+.base2 {
+  height: 51px;
+  width: 327px;
+  border-radius: var(--br-19xl);
+  background: linear-gradient(180deg, #030e27, #030e27);
+  display: none;
+  max-width: 100%;
+}
+.text2 {
+  width: 111px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 23.3px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 111px;
+  z-index: 1;
+}
+.actions1,
+.button-yellow2 {
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button-yellow2 {
+  cursor: pointer;
+  border: 0;
+  padding: 13.8px var(--padding-xl) 13.9px var(--padding-27xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-19xl);
+  background: linear-gradient(180deg, #030e27, #030e27);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.actions1 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.actions1,
+.add-contact-page,
+.contact-info-parent,
+.content1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-info-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 154.4px;
+  max-width: 100%;
+}
+.add-contact-page,
+.content1 {
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base) 0 var(--padding-mini);
+  max-width: 100%;
+}
+.add-contact-page {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-17xl) var(--padding-5xs) 102px;
+  gap: 130px;
+  line-height: normal;
+  letter-spacing: normal;
+}

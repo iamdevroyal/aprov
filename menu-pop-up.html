@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./menu-pop-up.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="menu-pop-up" id="popupmenuPopUp">
+      <main class="frame-main">
+        <section class="rectangle-section"></section>
+        <section class="frame-child22"></section>
+      </main>
+      <div class="vector-parent">
+        <img class="vector-icon" alt="" src="./public/vector-115.svg" />
+
+        <img class="frame-child23" alt="" src="./public/vector-114.svg" />
+
+        <div class="ellipse-div"></div>
+        <img
+          class="group-icon5"
+          loading="lazy"
+          alt=""
+          src="./public/group.svg"
+        />
+
+        <img class="frame-icon" alt="" src="./public/frame-1936.svg" />
+      </div>
+      <div class="navigation">
+        <div class="filter-parent">
+          <div class="filter15">
+            <a class="escrows">Escrows</a>
+          </div>
+          <div class="filter16" id="popupfilterContainer1">
+            <div class="paylink">Wallets</div>
+          </div>
+        </div>
+        <div class="filter-parent">
+          <button class="filter17" id="popupfilter">
+            <a class="profile">Profile</a>
+          </button>
+          <div class="filter18">
+            <div class="paylink">Paylink</div>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="filter-parent">
+          <div class="filter19" id="popupfilterContainer">
+            <div class="dispute">Dispute</div>
+          </div>
+          <button class="filter20">
+            <div class="store">Store</div>
+          </button>
+        </div>
+        <div class="filter-parent">
+          <button class="filter21">
+            <a class="support">Support</a>
+          </button>
+          <button class="filter22">
+            <div class="pay-bills">Pay Bills</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupfilterContainer1 = document.getElementById("popupfilterContainer1");
+      if (popupfilterContainer1) {
+        popupfilterContainer1.addEventListener("click", function (e) {
+          window.location.href = "./wallets-page.html";
+        });
+      }
+
+      var popupfilter = document.getElementById("popupfilter");
+      if (popupfilter) {
+        popupfilter.addEventListener("click", function (e) {
+          window.location.href = "./profile-page.html";
+        });
+      }
+
+      var popupfilterContainer = document.getElementById("popupfilterContainer");
+      if (popupfilterContainer) {
+        popupfilterContainer.addEventListener("click", function (e) {
+          // Please sync "Disputed Escrows" to the project
+        });
+      }
+
+      var popupmenuPopUp = document.getElementById("popupmenuPopUp");
+      if (popupmenuPopUp) {
+        popupmenuPopUp.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+    </script>
+  </body>
+</html>

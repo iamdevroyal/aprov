@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./add-contact-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="add-contact-page">
+      <div class="add-contact-page-child"></div>
+      <div class="header1">
+        <div class="left-side-icons7" id="leftSideIcons">
+          <div class="icon-avatar6"></div>
+          <div class="icon-back6">
+            <div class="base-icon6"></div>
+            <img
+              class="arrows-chevron-left7"
+              loading="lazy"
+              alt=""
+              src="./public/24--arrows--chevronleft.svg"
+            />
+          </div>
+        </div>
+        <div class="title1">
+          <a class="add-contact">Add Contact</a>
+        </div>
+      </div>
+      <section class="content1">
+        <div class="contact-info-parent">
+          <div class="contact-info">
+            <div class="info-title">
+              <b class="enter-contact-details">Enter contact details</b>
+            </div>
+            <div class="input-fields">
+              <div class="name-account">
+                <div class="name-account-child"></div>
+                <input
+                  class="contact-name1"
+                  placeholder="Contact Name"
+                  type="text"
+                />
+              </div>
+              <div class="name-account1">
+                <div class="name-account-child"></div>
+                <input
+                  class="account-number"
+                  placeholder="Account Number"
+                  type="text"
+                />
+              </div>
+              <div class="bank-selection">
+                <div class="bank-label">
+                  <div class="name-account-child"></div>
+                  <div class="select-bank">Select Bank</div>
+                </div>
+                <img
+                  class="left-side-icons8"
+                  alt=""
+                  src="./public/left-side-icons@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="actions1">
+            <button class="button-yellow2" id="buttonYellow">
+              <div class="base2"></div>
+              <div class="text2">Add Contact</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var leftSideIcons = document.getElementById("leftSideIcons");
+      if (leftSideIcons) {
+        leftSideIcons.addEventListener("click", function (e) {
+          window.location.href = "./send-to-aprov-contact.html";
+        });
+      }
+
+      var buttonYellow = document.getElementById("buttonYellow");
+      if (buttonYellow) {
+        buttonYellow.addEventListener("click", function (e) {
+          window.location.href = "./processing-transfer.html";
+        });
+      }
+    </script>
+  </body>
+</html>

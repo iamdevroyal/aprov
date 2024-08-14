@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./messages.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mochiy Pop One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="messages">
+      <div class="messages-child"></div>
+      <section class="messages-inner">
+        <div class="frame-parent33">
+          <div class="left-side-icons-parent3">
+            <div class="left-side-icons10" id="leftSideIcons">
+              <div class="icon-avatar8"></div>
+              <div class="icon-back8">
+                <div class="base-icon8"></div>
+                <img
+                  class="arrows-chevron-left9"
+                  loading="lazy"
+                  alt=""
+                  src="./public/24--arrows--chevronleft1.svg"
+                />
+              </div>
+            </div>
+            <div class="messages-wrapper">
+              <a class="messages1">Messages</a>
+            </div>
+          </div>
+          <div class="frame-wrapper21">
+            <div class="messages-03-parent">
+              <img
+                class="messages-03-icon"
+                loading="lazy"
+                alt=""
+                src="./public/messages-03.svg"
+              />
+
+              <div class="message-content">
+                <div class="no-new-messages-parent">
+                  <h3 class="no-new-messages">No new messages!</h3>
+                  <div class="your-inbox-is-empty-start-sen-wrapper">
+                    <div class="your-inbox-is-container">
+                      <p class="your-inbox-is">Your inbox is empty.</p>
+                      <p class="your-inbox-is">Start sending messages to</p>
+                      <p class="your-fellow-aprov">
+                        your fellow Aprov friends.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <button class="rectangle-parent36">
+        <div class="frame-child89"></div>
+        <div class="frame-wrapper22">
+          <div class="ellipse-parent4">
+            <div class="frame-child90"></div>
+            <div class="bottom-bar1">
+              <div class="bottom-bar-child"></div>
+              <img class="vector-icon2" alt="" src="./public/vector11.svg" />
+
+              <img class="vector-icon3" alt="" src="./public/vector-1.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="empty-inbox">
+          <b class="new-message">New Message</b>
+        </div>
+      </button>
+    </div>
+
+    <script>
+      var leftSideIcons = document.getElementById("leftSideIcons");
+      if (leftSideIcons) {
+        leftSideIcons.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+    </script>
+  </body>
+</html>

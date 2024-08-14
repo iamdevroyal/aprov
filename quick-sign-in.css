@@ -1,0 +1,265 @@
+.quick-sign-in-child {
+  width: 375px;
+  height: 812px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.logo-icon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.logo-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.welcome-back {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.royal1 {
+  margin: 0;
+}
+.welcome-back-royal-container {
+  margin: 0;
+  height: 42px;
+  position: relative;
+  font-size: inherit;
+  line-height: 16px;
+  display: inline-block;
+  z-index: 1;
+  font-family: inherit;
+}
+.header2 {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+}
+.enter-your-aprov {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  z-index: 1;
+}
+.pin-instructions {
+  width: 316px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 43px;
+  box-sizing: border-box;
+}
+.pin-field-child {
+  height: 50px;
+  width: 327px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.group-icon67 {
+  width: 11.4px;
+  height: 14.7px;
+  position: relative;
+  z-index: 2;
+}
+.group-wrapper17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.enter-your-pin {
+  width: calc(100% - 29.5px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 16px;
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 65px;
+  padding: 0;
+  z-index: 2;
+}
+.pin-input-container {
+  width: 129px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+}
+.vuesaxlineareye-slash-icon {
+  height: 18px;
+  width: 18.1px;
+  position: relative;
+  min-height: 18px;
+  z-index: 2;
+}
+.pin-field {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-sm)
+    var(--padding-lgi);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.content2,
+.sign-in-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sign-in-form {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.content2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-lg) var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.button {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-gray-200);
+  cursor: pointer;
+  z-index: 1;
+}
+.sign-in {
+  width: 59px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 59px;
+  z-index: 2;
+}
+.button-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-xl);
+  position: relative;
+  white-space: nowrap;
+}
+.sign-up,
+.sign-up-bg {
+  position: absolute;
+  left: 0;
+}
+.sign-up-bg {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.sign-up {
+  top: 5px;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  width: 76px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.sign-up-bg-parent {
+  height: 28px;
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.pin-input {
+  width: 127px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+}
+.pin-label,
+.quick-sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: var(--font-inter);
+}
+.pin-label {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.quick-sign-in {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 75px var(--padding-lg) 250px var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 71px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
